@@ -2,7 +2,7 @@ from random import random
 
 import matplotlib.pyplot as plt
 
-colors = [(random(), random(), random()) for i in range(100)]
+colors = ['black', 'red', 'lightcoral', 'gold', 'teal', 'navy', 'g', 'purple', 'grey', 'mediumpurple', 'pink', 'blue', 'sienna', 'greenyellow', 'maroon']
 
 with open('cmake-build-debug/output.txt', 'r') as f:
     plt.title('Components', fontsize=15)
